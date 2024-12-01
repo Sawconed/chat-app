@@ -13,6 +13,13 @@ pnpm dev
 # or
 bun dev
 ```
+You need to have convex running simultanously to make sure the back-end works:
+
+_To run convex, use the following command:_
+
+```bash
+npx convex dev
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
