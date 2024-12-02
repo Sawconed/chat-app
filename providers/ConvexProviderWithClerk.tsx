@@ -1,6 +1,6 @@
 "use client";
 
-import { ClerkProvider, RedirectToSignIn, SignInButton, useAuth, UserButton } from "@clerk/clerk-react";
+import { ClerkProvider, RedirectToSignIn, useAuth } from "@clerk/clerk-react";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
 import { Authenticated, AuthLoading, ConvexReactClient, Unauthenticated } from "convex/react";
 import LoadingLogo from "@/components/shared/LoadingLogo";

@@ -1,5 +1,6 @@
 "use client";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ModeToggle } from "@/components/ui/theme/theme-toggle";
@@ -28,6 +29,7 @@ const DesktopNav = () => {
                       >
                         {path.icon}
                       </Button>
+                      {path.count ? <Badge className="absolute left-6 bottom-7 px-2" variant="destructive">{path.count}</Badge> : null}
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>{path.name}</p>
